@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7B34872177B235400C50244 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B34871177B235400C50244 /* Cocoa.framework */; };
+		C7B3487C177B235400C50244 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7B3487A177B235400C50244 /* InfoPlist.strings */; };
+		C7B3487E177B235400C50244 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B3487D177B235400C50244 /* main.m */; };
+		C7B34882177B235400C50244 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C7B34880177B235400C50244 /* Credits.rtf */; };
+		C7B34885177B235500C50244 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B34884177B235500C50244 /* AppDelegate.m */; };
+		C7B34888177B235500C50244 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B34886177B235500C50244 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7B3486E177B235400C50244 /* BluredChildWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluredChildWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B34871177B235400C50244 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C7B34874177B235400C50244 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C7B34875177B235400C50244 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C7B34876177B235400C50244 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7B34879177B235400C50244 /* BluredChildWindow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluredChildWindow-Info.plist"; sourceTree = "<group>"; };
+		C7B3487B177B235400C50244 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7B3487D177B235400C50244 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7B3487F177B235400C50244 /* BluredChildWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BluredChildWindow-Prefix.pch"; sourceTree = "<group>"; };
+		C7B34881177B235400C50244 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C7B34883177B235500C50244 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7B34884177B235500C50244 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7B34887177B235500C50244 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7B3486B177B235400C50244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B34872177B235400C50244 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7B34865177B235400C50244 = {
+			isa = PBXGroup;
+			children = (
+				C7B34877177B235400C50244 /* BluredChildWindow */,
+				C7B34870177B235400C50244 /* Frameworks */,
+				C7B3486F177B235400C50244 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7B3486F177B235400C50244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7B3486E177B235400C50244 /* BluredChildWindow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7B34870177B235400C50244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7B34871177B235400C50244 /* Cocoa.framework */,
+				C7B34873177B235400C50244 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7B34873177B235400C50244 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7B34874177B235400C50244 /* AppKit.framework */,
+				C7B34875177B235400C50244 /* CoreData.framework */,
+				C7B34876177B235400C50244 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C7B34877177B235400C50244 /* BluredChildWindow */ = {
+			isa = PBXGroup;
+			children = (
+				C7B34883177B235500C50244 /* AppDelegate.h */,
+				C7B34884177B235500C50244 /* AppDelegate.m */,
+				C7B34886177B235500C50244 /* MainMenu.xib */,
+				C7B34878177B235400C50244 /* Supporting Files */,
+			);
+			path = BluredChildWindow;
+			sourceTree = "<group>";
+		};
+		C7B34878177B235400C50244 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7B34879177B235400C50244 /* BluredChildWindow-Info.plist */,
+				C7B3487A177B235400C50244 /* InfoPlist.strings */,
+				C7B3487D177B235400C50244 /* main.m */,
+				C7B3487F177B235400C50244 /* BluredChildWindow-Prefix.pch */,
+				C7B34880177B235400C50244 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7B3486D177B235400C50244 /* BluredChildWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B3488B177B235500C50244 /* Build configuration list for PBXNativeTarget "BluredChildWindow" */;
+			buildPhases = (
+				C7B3486A177B235400C50244 /* Sources */,
+				C7B3486B177B235400C50244 /* Frameworks */,
+				C7B3486C177B235400C50244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluredChildWindow;
+			productName = BluredChildWindow;
+			productReference = C7B3486E177B235400C50244 /* BluredChildWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7B34866177B235400C50244 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kirill Kosarev";
+			};
+			buildConfigurationList = C7B34869177B235400C50244 /* Build configuration list for PBXProject "BluredChildWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7B34865177B235400C50244;
+			productRefGroup = C7B3486F177B235400C50244 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7B3486D177B235400C50244 /* BluredChildWindow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7B3486C177B235400C50244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B3487C177B235400C50244 /* InfoPlist.strings in Resources */,
+				C7B34882177B235400C50244 /* Credits.rtf in Resources */,
+				C7B34888177B235500C50244 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7B3486A177B235400C50244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B3487E177B235400C50244 /* main.m in Sources */,
+				C7B34885177B235500C50244 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7B3487A177B235400C50244 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B3487B177B235400C50244 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7B34880177B235400C50244 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B34881177B235400C50244 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C7B34886177B235500C50244 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B34887177B235500C50244 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7B34889177B235500C50244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C7B3488A177B235500C50244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C7B3488C177B235500C50244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluredChildWindow/BluredChildWindow-Prefix.pch";
+				INFOPLIST_FILE = "BluredChildWindow/BluredChildWindow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7B3488D177B235500C50244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluredChildWindow/BluredChildWindow-Prefix.pch";
+				INFOPLIST_FILE = "BluredChildWindow/BluredChildWindow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7B34869177B235400C50244 /* Build configuration list for PBXProject "BluredChildWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B34889177B235500C50244 /* Debug */,
+				C7B3488A177B235500C50244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B3488B177B235500C50244 /* Build configuration list for PBXNativeTarget "BluredChildWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B3488C177B235500C50244 /* Debug */,
+				C7B3488D177B235500C50244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7B34866177B235400C50244 /* Project object */;
+}
